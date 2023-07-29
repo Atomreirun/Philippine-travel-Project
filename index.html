@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Philippine Island</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+        110.9deg,
+        rgb(44, 221, 239) 1.1%,
+        rgb(14, 191, 210) 37.6%,
+        rgb(8, 127, 140) 99.2%
+      );
+      margin: 50px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      font-style: italic;
+    }
+
+    h2 {
+      text-align: center;
+      border: 1px solid #7d51e8;
+      background: goldenrod;
+      padding: 20px 30px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 25px;
+      text-align: justify;
+      padding: 5px;
+    }
+    span {
+      color: #7d51e8;
+    }
+    .size {
+      font-size: 20px;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      background: #7d51e8;
+      color: white;
+      font-size: 18px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      cursor: pointer;
+      background: goldenrod;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 30px 60px;
+    }
+
+    .learn-more {
+      display: block;
+      margin-top: 10px;
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      text-align: center;
+    }
+    .builder {
+      color: white;
+    }
+
+    .grid {
+      margin: 15px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      border-radius: 10px;
+      transition: all 150ms ease-in-out;
+    }
+
+    .grid:hover {
+      filter: contrast(80%);
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 900px) {
+      h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+      }
+      h2 {
+        font-size: small;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">🌺🌼🌸 Philippine Island 🌺🌼🌸</h1>
+
+      <br />
+      <h2>
+        🌺🌸 Capture the amazing beauty of the Pearl of the Orient - Philippines
+        🌸🌺
+      </h2>
+      <br />
+      <img
+        src="images/Philippine-island.png"
+        class="img-fluid rounded-3 mt-10"
+        alt="island"
+      />
+      <div class="grid">
+        <img
+          src="images/camiguin.png"
+          class="img-fluid rounded-3"
+          alt="camiguin island"
+          width="300"
+        />
+        <img
+          src="images/mayon-volacano.png"
+          class="img-fluid rounded-3"
+          alt="camiguin island"
+          width="300"
+        />
+        <img
+          src="images/boracay.png"
+          class="img-fluid rounded-3"
+          alt="camiguin island"
+          width="300"
+        />
+      </div>
+
+      <br />
+      <p>
+        <strong><span class="size">The Philippines</span></strong
+        >, officially the Republic of the Philippines, is an archipelagic
+        country in Southeast Asia. In the western Pacific Ocean, it consists of
+        7,641 islands which are broadly categorized in three main geographical
+        divisions from north to south: Luzon, Visayas, and Mindanao. The
+        Philippines is a land rich in natural resources, scenic locales, and
+        friendly smiles. Here, everybody is welcome to be part of the fun from
+        the captivating coastlines, to the creative native crafts, to the unique
+        gastronomic experience, you will find the kind of fun that is uniquely
+        yours. Whether you are visiting the Philippines for casual travel or
+        investing for your own business, there is always something fun to
+        discover. Here are the essential information you need to familiarize
+        yourself with this fun-loving country.
+
+        <a
+          href="https://beta.tourism.gov.ph/about-the-philippines/"
+          target="https://beta.tourism.gov.ph/about-the-philippines/"
+          class="learn-more"
+        >
+          Learn More
+        </a>
+        <br />
+        <button>Book Now</button>
+      </p>
+
+      <p class="footer">
+        This page is built by
+        <a href="https://www.shecodes.io/" class="builder" target="_blank">
+          Arlene C. Runyon
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
